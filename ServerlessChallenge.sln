@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0079284E-9F2F-4DB5-9D73-EFDA818CD779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServlessChallenge.ServerlessDreidel", "src\ServlessChallenge.ServerlessDreidel\ServlessChallenge.ServerlessDreidel.csproj", "{3C6B6412-F655-4789-862E-A3B5C3390039}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6B6412-F655-4789-862E-A3B5C3390039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6B6412-F655-4789-862E-A3B5C3390039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6B6412-F655-4789-862E-A3B5C3390039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6B6412-F655-4789-862E-A3B5C3390039}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C6B6412-F655-4789-862E-A3B5C3390039} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {75BCAA7D-DF94-431D-AE1A-6311ADA8D2CD}
+	EndGlobalSection
+EndGlobal
