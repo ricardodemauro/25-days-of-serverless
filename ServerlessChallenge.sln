@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0079284E-9F2F-4DB5-9D73-EFDA818CD779}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServlessChallenge.ServerlessDreidel", "src\ServlessChallenge.ServerlessDreidel\ServlessChallenge.ServerlessDreidel.csproj", "{3C6B6412-F655-4789-862E-A3B5C3390039}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServlessChallenge.ServerlessDreidel", "src\ServlessChallenge.ServerlessDreidel\ServlessChallenge.ServerlessDreidel.csproj", "{3C6B6412-F655-4789-862E-A3B5C3390039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01", "01", "{86AC2BA0-9534-403D-92AC-CF598C984A82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{4AE91E0E-44A0-4644-BAF0-47BD78C2834E}"
+	ProjectSection(SolutionItems) = preProject
+		src\02ServlessChallenge.Lucys\lucysapp.json = src\02ServlessChallenge.Lucys\lucysapp.json
+		src\02ServlessChallenge.Lucys\Readme.md = src\02ServlessChallenge.Lucys\Readme.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,7 +30,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3C6B6412-F655-4789-862E-A3B5C3390039} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
+		{3C6B6412-F655-4789-862E-A3B5C3390039} = {86AC2BA0-9534-403D-92AC-CF598C984A82}
+		{86AC2BA0-9534-403D-92AC-CF598C984A82} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
+		{4AE91E0E-44A0-4644-BAF0-47BD78C2834E} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75BCAA7D-DF94-431D-AE1A-6311ADA8D2CD}
