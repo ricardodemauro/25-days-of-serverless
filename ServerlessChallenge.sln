@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02", "02", "{4AE91E0E-44A0-
 		src\02ServlessChallenge.Lucys\Readme.md = src\02ServlessChallenge.Lucys\Readme.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03", "03", "{E8AE8BD7-02AC-4DAF-997E-B33FC709C430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.ServlessChallenge.Webhooks", "src\03.ServlessChallenge.Webhooks\03.ServlessChallenge.Webhooks.csproj", "{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{3C6B6412-F655-4789-862E-A3B5C3390039}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C6B6412-F655-4789-862E-A3B5C3390039}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C6B6412-F655-4789-862E-A3B5C3390039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,6 +41,8 @@ Global
 		{3C6B6412-F655-4789-862E-A3B5C3390039} = {86AC2BA0-9534-403D-92AC-CF598C984A82}
 		{86AC2BA0-9534-403D-92AC-CF598C984A82} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
 		{4AE91E0E-44A0-4644-BAF0-47BD78C2834E} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
+		{E8AE8BD7-02AC-4DAF-997E-B33FC709C430} = {0079284E-9F2F-4DB5-9D73-EFDA818CD779}
+		{7656F5A2-56BE-4EA1-8AA8-ACB62BEC01FC} = {E8AE8BD7-02AC-4DAF-997E-B33FC709C430}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {75BCAA7D-DF94-431D-AE1A-6311ADA8D2CD}
