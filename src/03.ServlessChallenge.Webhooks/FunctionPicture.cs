@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Extensions.Logging;
-using MongoDB.Bson.Serialization.Conventions;
 using ServlessChallenge.Webhooks.Models;
 using System;
 using System.Threading.Tasks;
@@ -37,6 +36,23 @@ namespace ServlessChallenge.Webhooks
                 Created = DateTime.UtcNow,
                 CreatedBy = "System",
                 Name = name
+            };
+            var dbPic = await _service.Create(pic);
+
+            return new JsonResult(dbPic);
+        }
+
+        [FunctionName("FunctionAddPictureGithub")]
+        public async Task<IActionResult> AddPictureGithub(
+           [HttpTrigger(AuthorizationLevel.Anonymous, "post", Route = null)] GithubIssueTmp req)
+        {
+            _logger.LogInformation("C# HTTP trigger function processed a request.");
+
+            var pic = new Picture()
+            {
+                Created = DateTime.UtcNow,
+                CreatedBy = req.Sender.Login,
+                Name = req.Comment.Body
             };
             var dbPic = await _service.Create(pic);
 
