@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Imache.Services
+namespace Imache.Services.Api
 {
     public interface IUnsplashService
     {
