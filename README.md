@@ -38,8 +38,11 @@ Cliente - Nome e Email
 ### Tecnologias
 
 C# e AspNet 5 [Link](docs.microsoft.com)
+
 Azure Storage [Link](azure.docs.microsoft.com)
+
 SQL Server  [Link](azure.docs.microsoft.com)
+
 Twilio SMS  [Link](azure.docs.microsoft.com)
 
 ### Ferramenta
@@ -48,8 +51,8 @@ Twilio SMS  [Link](azure.docs.microsoft.com)
 - Docker Enabled
 
 ### Preparação Ambiente
-Abrir Solution no Visual Studio e roda
-Rodar script SQL [/misc/sql/initial.sql](/misc/sql/initial.sql) no banco de dados
+- Abrir Solution no Visual Studio e roda
+- Rodar script SQL [/misc/sql/initial.sql](/misc/sql/initial.sql) no banco de dados
 
 #### Criar conta de blob storage
 - Criar conta com nome *Storage-CTG*
